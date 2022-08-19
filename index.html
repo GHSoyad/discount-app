@@ -16,27 +16,27 @@
             <div class="inputs">
                 <div class="input">
                     <h3>Enter Total Price</h3>
-                    <input type="number">
-                    <button>SUBMIT</button>
+                    <input type="number" id="price-field">
+                    <button id="price-btn">SUBMIT</button>
                 </div>
                 <div class="input">
                     <h3>Enter Discount</h3>
-                    <input type="text">
-                    <button>APPLY</button>
+                    <input type="text" id="discount-field">
+                    <button id="discount-btn">APPLY</button>
                 </div>
             </div>
             <div class="prices">
                 <div class="price total">
                     <h3>Total Price</h3>
-                    <p>$ <span>100</span></p>
+                    <p>$ <span id="total-price">100</span></p>
                 </div>
                 <div class="price">
                     <h3>Discount Amount</h3>
-                    <p>$ <span>00</span></p>
+                    <p>$ <span id="discount-amount">00</span></p>
                 </div>
                 <div class="price">
                     <h3>Discounted Price</h3>
-                    <p>$ <span>00</span></p>
+                    <p>$ <span id="discounted-price">00</span></p>
                 </div>
             </div>
             <div class="details">
@@ -49,6 +49,8 @@
             </div>
         </section>
     </main>
+    <script src="functions.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
